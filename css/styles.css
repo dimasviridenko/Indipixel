@@ -1,0 +1,193 @@
+body, html {
+	min-height: 100%;
+	height: 100%;
+}
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+	background: #fff;
+}
+
+/*CONTAINER*/
+.container {
+    width: 1350px;
+    height: 1150px;
+    margin: 0 auto;
+    padding: 0;
+    background: linear-gradient(#04e4a2 2%, #ef5350 2%, #ef5350 59.5%, #ffffff 59.5%);
+}
+/*HEADER*/
+header .logo {
+    float: left;
+    padding: 50px 0px 30px;
+    width: 210px;
+    height: 100px;
+    margin-left: 200px;
+    font-size: 35px ;
+    line-height: 0;
+    text-align: center;
+    background-color: #ef5350;
+    color: #fefcf2;
+    -webkit-box-shadow: 1px 7px 30px -6px rgba(0,0,0,0.57);
+    -moz-box-shadow: 1px 7px 30px -6px rgba(0,0,0,0.57);
+    box-shadow: 1px 7px 30px -6px rgba(0,0,0,0.57);
+    box-sizing: border-box;
+}
+header a {
+    float: right;
+    margin: 50px 95px 0 0;
+    text-transform: uppercase;
+    color: #f9fbe7;
+    font-size: 16px ;
+    border-bottom: 1px solid #fdd835;
+    text-decoration: none;
+}
+
+/*MAIN*/
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+/*PHONE*/
+.phone {
+    margin-top: 173px;
+    margin-left: -450px;
+    float: left;
+}
+div {
+    display: block;
+}
+.phone img:first-child {
+    position: absolute;
+}
+.phone img:last-child {
+    margin-left: 192px;
+    margin-top: -8px;
+    position: relative;
+}
+
+/*PROMO*/
+.promo {
+    margin-top: 200px;
+}
+.promo, form {
+    float: right;
+    width: 520px;
+    clear: right;
+    margin-right: 135px;
+}
+.promo h1 {
+    font-size: 30px ;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.promo p {
+    font-size: 18px ;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.promo button {
+    float: right;
+    width: 165px;
+    height: 53px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffb74d;
+    color: #f9fbe7;
+    font-size: 18px ;
+    text-transform: uppercase;
+}
+button, button:active, button:focus {
+    outline: none;
+}
+
+.promo, form {
+    float: right;
+    width: 520px;
+    clear: right;
+    margin-right: 135px;
+}
+
+/*FORM*/
+form {
+    margin-top: 130px;
+}
+form h2 {
+    font-size: 20px ;
+    color: #ff8a80;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+input[type="text"]:first-of-type, input[type="email"] {
+    margin-right: 15px;
+    display: inline-block;
+    
+}
+input[type="text"], input[type="email"], select {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border: 2px solid #e3f2fd;
+    margin-bottom: 17px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+select {
+    color: #636363;
+    font-size: 16px ;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+textarea {
+    width: 475px;
+    height: 100px;
+    resize: none;
+    padding: 20px 20px;
+    border: 2px solid #e3f2fd;
+    margin-bottom: 15px;
+}
+input[type="submit"] {
+    float: right;
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #1de9b6;
+    font-size: 20px ;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+}
+
+/*FOOTER*/
+footer {
+    font-size: 18px ;
+    background-color: #fefcf2;
+    padding: 18px 190px;
+    color: #636363;
+    height: 52px;
+    margin-top: 32px;
+
+}
+footer p {
+    line-height: 40px;
+    float: left;
+}
+.social  {
+    text-align: center;
+    float: right;
+}
+.social img{
+	margin-right: 10px;
+	float: left;
+}
